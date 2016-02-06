@@ -5,3 +5,24 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+tournament = Tournament.create(
+				name: "Bloody Tournament"
+			)
+10.times do
+	player = Player.create(
+				name: Faker::Name.name
+		)
+	tournament.players.push(player)
+end
+
+
+anothertournament = Tournament.create(
+				name: "Rainbow Tournament"
+			)
+10.times do
+	player = Player.create(
+				name: Faker::Name.name
+		)
+	anothertournament.players.push(player)
+end
+
