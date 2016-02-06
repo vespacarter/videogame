@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Faker
 gem 'faker'
 
+#
+gem 'pry-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 #Use tzinfo if you're a noob on windows(I use windows dont kill me)
